@@ -1,0 +1,6 @@
+fdk (0.1.0-1) unstable; urgency=low
+
+  * First usable release with CSD, file dialog, drag-and-drop,
+    app window icons, and full X11 + Wayland support.
+
+ -- FemBoyGamerTechGuy <faddeddreamproject@proton.me>  Mon, 14 Jul 2026 00:00:00 +0000

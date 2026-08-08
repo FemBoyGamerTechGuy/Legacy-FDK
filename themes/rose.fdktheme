@@ -1,0 +1,147 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Rosé — FDK Theme
+# Warm dark with dusty rose and gold accents.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Palette ───────────────────────────────────────────────────────────────────
+$base       = #191724
+$surface    = #1F1D2E
+$overlay    = #26233A
+$muted_col  = #6E6A86
+$subtle     = #908CAA
+$text_col   = #E0DEF4
+$love       = #EB6F92
+$gold       = #F6C177
+$rose_acc   = #EBBCBA
+$pine       = #31748F
+$foam       = #9CCFD8
+$iris       = #C4A7E7
+$rose_dim   = #EBBCBA:50
+$iris_dim   = #C4A7E7:40
+
+# ── Global surfaces ───────────────────────────────────────────────────────────
+bg_window        = $base
+bg_widget        = $surface
+bg_widget_hover  = $overlay
+bg_widget_active = #17151F
+bg_input         = #17151F
+bg_input_focus   = $surface
+bg_selection     = #C4A7E7:38
+
+# ── Foreground ────────────────────────────────────────────────────────────────
+fg_primary   = $text_col
+fg_secondary = $subtle
+fg_disabled  = $muted_col
+fg_on_accent = #191724
+
+# ── Accent ────────────────────────────────────────────────────────────────────
+accent        = $iris
+accent_hover  = #D4B8F4
+accent_active = #A890C8
+
+# ── Structure ─────────────────────────────────────────────────────────────────
+border         = $iris_dim
+border_focus   = #C4A7E7:90
+separator      = #FFFFFF:10
+scrollbar_track = $surface
+scrollbar_thumb = $iris_dim
+
+# ── Toast strips ──────────────────────────────────────────────────────────────
+toast_info    = $pine
+toast_success = $foam
+toast_warning = $gold
+toast_error   = $love
+
+# ── Geometry ──────────────────────────────────────────────────────────────────
+radius_sm   = 8
+radius_md   = 14
+scrollbar_w = 8
+
+# ── Spacing ───────────────────────────────────────────────────────────────────
+gap_sm = 4
+gap_md = 8
+pad_sm = 8
+pad_md = 16
+
+# ── Typography ────────────────────────────────────────────────────────────────
+font_body  = DejaVu Sans:15
+font_label = DejaVu Sans:13
+font_mono  = DejaVu Sans Mono:14
+line_height = 22
+
+# ── Window shadow ─────────────────────────────────────────────────────────────
+window_shadow = 0 8 28 #00000099
+
+# ── Per-widget overrides ──────────────────────────────────────────────────────
+
+[button]
+bg        = $overlay
+bg_hover  = #2E2B3E
+fg        = $text_col
+radius    = 10
+padding   = 8 18
+
+[button.accent]
+bg        = $iris
+bg_hover  = #D4B8F4
+fg        = #191724
+
+[button.danger]
+bg        = #2E151E
+bg_hover  = #3E1E2A
+fg        = $love
+
+[button.ghost]
+bg        = #00000000
+bg_hover  = #C4A7E7:18
+fg        = $iris
+border    = $iris_dim
+
+[button.love]
+bg        = $love
+bg_hover  = #F08AAA
+fg        = #191724
+
+[input]
+bg        = #17151F
+fg        = $text_col
+border    = $iris_dim
+radius    = 6
+padding   = 6 8
+
+[toggle]
+bg        = $surface
+bg_hover  = $overlay
+fg        = $text
+radius    = 10
+padding   = 8 18
+
+[toggle.on]
+bg        = $iris
+fg        = #191724
+
+[badge]
+bg        = $iris
+fg        = #191724
+radius    = 99
+padding   = 3 9
+
+[tooltip]
+bg        = #231F35F0
+fg        = $text_col
+border    = $iris_dim
+shadow    = 0 4 14 #00000080
+
+[tabs]
+bg        = $surface
+border    = $iris_dim
+
+[menubar]
+bg        = $surface
+border    = $iris_dim
+
+[textarea]
+bg        = #17151F
+fg        = $text_col
+border    = $iris_dim
+radius    = 6

@@ -1,0 +1,8 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(Freetype REQUIRED)
+
+include("${CMAKE_CURRENT_LIST_DIR}/FDKTargets.cmake" OPTIONAL)
+
+check_required_components(FDK)

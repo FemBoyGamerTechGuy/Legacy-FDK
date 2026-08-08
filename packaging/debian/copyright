@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: fdk
+Upstream-Contact: faddeddreamproject@proton.me
+Source: https://github.com/FemBoyGamerTechGuy/FDK
+
+Files: *
+Copyright: 2026 FemBoyGamerTechGuy
+License: Proprietary
+ FDK (Faded Dream Kit) Proprietary License Version 1.0.
+ See LICENSE file in the source tree for full terms.
+ See sublicense/SUBLICENSE for terms governing use of FDK as a library.
+ All rights reserved. Use without explicit permission from the Author
+ is prohibited except as described in Section 2 (Personal Use).

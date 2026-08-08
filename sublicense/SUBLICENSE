@@ -1,0 +1,275 @@
+FDK (Faded Dream Kit) Sublicense
+Version 1.0, 2026
+Copyright (c) 2026 FemBoyGamerTechGuy. All rights reserved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PURPOSE
+
+This Sublicense governs the use of FDK (Faded Dream Kit) as a library within
+any project that links against, embeds, or otherwise uses FDK as a component.
+It is designed to be compatible with most commonly used software licenses —
+including MIT, Apache 2.0, GPL v2, GPL v3, LGPL, BSD 2-Clause, BSD 3-Clause,
+MPL 2.0, and most proprietary licenses — and may be combined with them without
+conflict.
+
+When this Sublicense and a Dependent Project's own license conflict on any
+matter covered by this Sublicense, this Sublicense always takes precedence
+on those specific matters. On all matters not covered by this Sublicense,
+the Dependent Project's own license applies without restriction.
+
+This Sublicense does not grant any rights to FDK's source code, assets, or
+tooling beyond what is required for the Dependent Project to function as a
+compiled application using FDK as a linked library. All other rights over
+FDK remain with the Author as defined in the main FDK LICENSE file.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DEFINITIONS
+
+FDK refers to the FDK (Faded Dream Kit) library, including its source code,
+compiled binaries, headers, themes, and associated tooling.
+
+Author refers to FemBoyGamerTechGuy, the sole copyright holder of FDK.
+
+Dependent Project refers to any software project, application, tool, or work
+that links against, embeds, or otherwise uses FDK as a library component,
+whether at compile time or runtime.
+
+Project Owner refers to the individual or entity that owns, develops, or
+maintains the Dependent Project.
+
+Creative Direction refers to decisions about a Dependent Project's feature
+set, design language, theming, public visibility, naming, branding, and
+overall development trajectory insofar as those decisions relate to or are
+influenced by the use of FDK within that project.
+
+Directive refers to a written instruction issued by the Author to the Project
+Owner under this Sublicense. A Directive is binding. The Project Owner must
+comply within the timeframe stated, or within 14 calendar days if no
+timeframe is given.
+
+Corporation refers to any company, business entity, legal entity, organisation,
+or group acting on behalf of a commercial interest, regardless of size,
+structure, or whether the use is described as internal or non-commercial.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ACCEPTANCE
+
+By using FDK as a library within any Dependent Project the Project Owner
+accepts and agrees to all terms of this Sublicense in full. This acceptance
+is automatic and does not require a separate written agreement. Continued
+use of FDK constitutes ongoing acceptance of the current version of this
+Sublicense and any future version issued by the Author.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. AUTHOR AUTHORITY OVER CREATIVE DIRECTION
+
+By using FDK within a Dependent Project, the Project Owner grants the Author
+binding authority over the Creative Direction of that Dependent Project.
+
+The Author may issue Directives requiring the Project Owner to implement,
+change, revert, or remove any aspect of the Dependent Project's Creative
+Direction. The Project Owner may respond to a Directive with a written
+explanation of why they believe the Directive is a poor decision or contrary
+to the project's interests. The Author will consider this response. However,
+the Author retains full and final authority to uphold, modify, or withdraw
+the Directive regardless of the Project Owner's response or reasoning.
+A Directive may be enforced even if the Project Owner has provided a
+compelling objection. The Project Owner must ultimately comply.
+
+The Author's authority under this section includes but is not limited to:
+
+  a) Directing changes to the Dependent Project's feature set, design,
+     theming, naming, branding, or documentation.
+
+  b) Directing changes to the Dependent Project's public visibility,
+     including requiring it to be made public, made private, moved,
+     or removed from any platform.
+
+  c) Directing the cessation of any feature or direction in the Dependent
+     Project that the Author determines is incompatible with FDK's design
+     philosophy or harmful to FDK's reputation.
+
+  d) Directing corrections to any content, documentation, or marketing
+     material that misrepresents FDK, the Author, or the Faded Dream
+     project ecosystem.
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  CREATOR NOTE (informational, not legally binding)                      │
+  │                                                                         │
+  │  In practice I'm generally relaxed about this. If you build something   │
+  │  with FDK I'm unlikely to get involved in your project's direction      │
+  │  unless something actively misrepresents FDK or causes a real problem.  │
+  │  The authority in this section exists to give me a legal basis to act   │
+  │  if something genuinely goes wrong — not to micromanage what you build. │
+  │  The chance I'll ever exercise these rights on a normal project is       │
+  │  very small.                                                             │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. NO PROTECTION FROM AUTHOR AUTHORITY
+
+Full and complete compliance with every term of this Sublicense and the main
+FDK LICENSE does not exempt any Dependent Project or Project Owner from the
+Author's authority under Section 2. The Author may issue Directives, request
+takedowns, influence the direction of a Dependent Project, or exercise any
+right granted under this Sublicense or the main FDK LICENSE at any time,
+for any reason or no reason, regardless of whether the Project Owner has
+been fully compliant with all terms. Compliance is required but does not
+create any entitlement to continued use, non-interference, or protection
+from the Author's authority.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. LIMITS OF AUTHOR AUTHORITY
+
+The Author's authority under Section 2 is subject to the following limits:
+
+  a) The Author may not claim financial ownership of the Dependent Project.
+     Any financial arrangements between the Author and a Project Owner are
+     governed solely by a separately issued Permission Grant and are not
+     legally binding under this Sublicense.
+
+  b) The Author may not issue Directives that require the Project Owner to
+     violate applicable law.
+
+  c) Directives must be issued in writing. Verbal or informal requests do
+     not constitute a Directive and carry no binding weight.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. CORPORATION USE
+
+Use of FDK within any Dependent Project by or on behalf of a Corporation
+is prohibited without the Author's explicit written consent and a valid
+Permission Grant issued by the Author.
+
+  a) A Corporation wishing to use FDK must contact the Author at the address
+     in Section 10 and obtain a Permission Grant before any use begins.
+     Use without a Permission Grant constitutes a violation of this
+     Sublicense and the main FDK LICENSE and is subject to enforcement
+     under Section 8 of the main LICENSE.
+
+  b) The terms under which a Corporation may use FDK — including but not
+     limited to any financial arrangements, revenue sharing, subscription
+     service considerations, or other conditions the Author may impose —
+     are determined solely by the Author at the time a Permission Grant
+     is issued and are set out within that Permission Grant. These terms
+     are specific to each Corporation and each use case.
+
+  c) No Corporation Permission Grant implies any future grant, renewal, or
+     entitlement. The Author may revoke any Corporation Permission Grant
+     at any time for any reason with or without notice.
+
+  d) All other terms of this Sublicense apply to Corporation use in addition
+     to the conditions set out in the Permission Grant.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. INDIVIDUAL DEVELOPERS AND PROFIT
+
+Individual developers who use FDK to build Dependent Projects that generate
+revenue — including but not limited to paid applications, in-app purchases,
+donation-funded projects, or any other model that results in financial gain
+from a product built on FDK — must contact the Author before monetising the
+Dependent Project. The terms under which monetisation is permitted, including
+any conditions the Author may wish to discuss, are determined by a Permission
+Grant issued by the Author. Any financial arrangements discussed in that
+context are set out in the Permission Grant and are not legally binding under
+this Sublicense.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7. SUBLICENSE INCLUSION REQUIREMENT
+
+Any Dependent Project must include this Sublicense file in its repository
+or distribution:
+
+  a) This file must be present in the root of the Dependent Project's
+     repository or in a subdirectory named sublicense/.
+
+  b) The Dependent Project's README or primary documentation must state
+     that the project uses FDK and is subject to the FDK Sublicense.
+
+  c) If the Dependent Project is distributed as a package, this Sublicense
+     must be included with that distribution.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+8. LICENSE COMPATIBILITY
+
+  a) The Dependent Project may use any license the Project Owner chooses
+     for their own original code.
+
+  b) This Sublicense does not require the Dependent Project's code to be
+     open source and does not impose any copyleft requirement on the
+     Dependent Project's original work.
+
+  c) Where this Sublicense conflicts with the Dependent Project's own
+     license, this Sublicense takes precedence solely on matters directly
+     related to FDK — specifically Sections 2, 3, 4, 5, 6, and 7 of this
+     Sublicense. All other matters are governed by the Dependent Project's
+     own license without restriction.
+
+  d) This Sublicense is compatible with GPL v2, GPL v3, LGPL v2.1,
+     LGPL v3, MIT, Apache 2.0, BSD 2-Clause, BSD 3-Clause, MPL 2.0,
+     ISC, and most other commonly used open source and proprietary licenses.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+9. ATTRIBUTION
+
+Any Dependent Project using FDK must include the following attribution in
+its documentation, README, or about screen:
+
+  Built with FDK (Faded Dream Kit) by FemBoyGamerTechGuy
+  https://github.com/FemBoyGamerTechGuy/FDK
+
+This attribution must remain visible and must not be obscured, removed,
+or misrepresented.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10. ENFORCEMENT
+
+Failure to comply with any Directive issued under Section 2, or violation
+of any other term of this Sublicense, entitles the Author to revoke the
+right to use FDK within the Dependent Project, require immediate removal
+of FDK from the project, request takedown or removal of the Dependent
+Project from any platform, and pursue enforcement under Section 8 of the
+main FDK LICENSE including DMCA takedowns and civil legal action.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+11. WHAT THIS SUBLICENSE DOES NOT COVER
+
+This Sublicense does not grant the Project Owner any right to access, modify,
+or redistribute FDK's source code beyond what the main FDK LICENSE permits,
+to claim ownership of FDK or any part of it, to remove or replace the main
+FDK LICENSE, or to grant any rights over FDK to third parties. All rights
+over FDK not explicitly granted here remain with the Author.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+12. NO WARRANTY
+
+FDK IS PROVIDED AS IS FOR USE IN DEPENDENT PROJECTS WITHOUT WARRANTY OF
+ANY KIND. THE AUTHOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE USE OF FDK WITHIN A DEPENDENT PROJECT.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+13. CONTACT
+
+All permission requests, Corporation use requests, and monetisation inquiries
+must be submitted in writing to:
+
+  faddeddreamproject@proton.me
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+End of FDK (Faded Dream Kit) Sublicense Version 1.0

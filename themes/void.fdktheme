@@ -1,0 +1,138 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Void — FDK Theme
+# Near-black with electric blue accents. High contrast, sharp edges.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Palette ───────────────────────────────────────────────────────────────────
+$black      = #080810
+$dark       = #0E0E18
+$surface    = #161622
+$elevated   = #1E1E2E
+$blue       = #3D9EFF
+$blue_dim   = #3D9EFF:50
+$blue_lo    = #3D9EFF:28
+$cyan       = #22D4C8
+$text       = #E8EAF2
+$muted      = #8890A8
+$dim        = #484E62
+
+# ── Global surfaces ───────────────────────────────────────────────────────────
+bg_window        = $black
+bg_widget        = $surface
+bg_widget_hover  = $elevated
+bg_widget_active = $dark
+bg_input         = $dark
+bg_input_focus   = #12121E
+bg_selection     = #3D9EFF:40
+
+# ── Foreground ────────────────────────────────────────────────────────────────
+fg_primary   = $text
+fg_secondary = $muted
+fg_disabled  = $dim
+fg_on_accent = #FFFFFF
+
+# ── Accent ────────────────────────────────────────────────────────────────────
+accent        = $blue
+accent_hover  = #6DB8FF
+accent_active = #2070CC
+
+# ── Structure ─────────────────────────────────────────────────────────────────
+border         = $blue_lo
+border_focus   = $blue_dim
+separator      = #FFFFFF:10
+scrollbar_track = $dark
+scrollbar_thumb = $blue_dim
+
+# ── Toast strips ──────────────────────────────────────────────────────────────
+toast_info    = $blue
+toast_success = #30D080
+toast_warning = #F0A020
+toast_error   = #E84040
+
+# ── Geometry ──────────────────────────────────────────────────────────────────
+radius_sm   = 3
+radius_md   = 6
+scrollbar_w = 6
+
+# ── Spacing ───────────────────────────────────────────────────────────────────
+gap_sm = 4
+gap_md = 8
+pad_sm = 6
+pad_md = 12
+
+# ── Typography ────────────────────────────────────────────────────────────────
+font_body  = DejaVu Sans:15
+font_label = DejaVu Sans:13
+font_mono  = DejaVu Sans Mono:14
+line_height = 22
+
+# ── Window shadow ─────────────────────────────────────────────────────────────
+window_shadow = 0 4 20 #00000088
+
+# ── Per-widget overrides ──────────────────────────────────────────────────────
+
+[button]
+bg        = $surface
+bg_hover  = $elevated
+fg        = $text
+radius    = 3
+padding   = 7 16
+
+[button.accent]
+bg        = $blue
+bg_hover  = #6DB8FF
+fg        = #000000
+
+[button.danger]
+bg        = #2A0808
+bg_hover  = #3E1010
+fg        = #FF8080
+
+[button.ghost]
+bg        = #00000000
+bg_hover  = #3D9EFF:14
+fg        = $blue
+border    = $blue_lo
+
+[input]
+bg        = $dark
+fg        = $text
+border    = $blue_lo
+radius    = 3
+padding   = 6 8
+
+[toggle]
+bg        = $surface
+bg_hover  = $elevated
+fg        = $text
+radius    = 3
+padding   = 6 12
+
+[toggle.on]
+bg        = $blue
+fg        = #000000
+
+bg        = $blue
+fg        = #000000
+radius    = 2
+padding   = 2 7
+
+[tooltip]
+bg        = #08080EF0
+fg        = $text
+border    = $blue_lo
+shadow    = 0 2 8 #00000088
+
+[tabs]
+bg        = $surface
+border    = $blue_lo
+
+[menubar]
+bg        = $dark
+border    = $blue_lo
+
+[textarea]
+bg        = $dark
+fg        = $text
+border    = $blue_lo
+radius    = 3

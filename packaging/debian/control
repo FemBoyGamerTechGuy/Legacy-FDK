@@ -1,0 +1,43 @@
+Source: fdk
+Section: libs
+Priority: optional
+Maintainer: FemBoyGamerTechGuy <faddeddreamproject@proton.me>
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+ ninja-build,
+ libfreetype-dev,
+ libwayland-dev,
+ wayland-protocols,
+ libx11-dev,
+ libxcursor-dev,
+ libgl-dev,
+ libegl-dev
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+
+Package: libfdk0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends},
+ libfreetype6,
+ libwayland-client0,
+ libx11-6,
+ libxcursor1
+Description: Faded Dream Kit — lightweight GUI toolkit (shared library)
+ FDK is a from-scratch GUI toolkit for Linux with Wayland and X11 backends,
+ software and OpenGL rendering, and a built-in theming system. No D-Bus,
+ no GTK, no systemd dependencies.
+
+Package: libfdk-dev
+Architecture: any
+Depends: libfdk0 (= ${binary:Version}), ${misc:Depends}
+Description: Faded Dream Kit — development files
+ Headers, static library, pkg-config file, and CMake config for building
+ applications with FDK.
+
+Package: fdk-theme
+Architecture: any
+Depends: libfdk0 (= ${binary:Version}), ${misc:Depends}
+Description: Faded Dream Kit — theme management CLI
+ Command-line tool for setting, listing, and inspecting FDK themes.
+ Manages ~/.FDKthemes/ and ~/.config/FDK/fdk.conf.

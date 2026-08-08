@@ -1,0 +1,12 @@
+prefix=@FDK_PC_PREFIX@
+includedir=@FDK_PC_INCLUDEDIR@
+libdir=@FDK_PC_LIBDIR@
+
+Name: FDK
+Description: Faded Dream Kit — lightweight proprietary UI toolkit for Linux
+Version: @FDK_PC_VERSION@
+URL: https://github.com/FemBoyGamerTechGuy/FDK
+
+Requires: @FDK_PC_REQUIRES@
+Libs: -L${libdir} -lfdk @FDK_PC_LIBS@
+Cflags: -I${includedir}

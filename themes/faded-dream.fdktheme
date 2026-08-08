@@ -1,0 +1,167 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Faded Dream — FDK Theme
+# A soft dark theme with muted purple accents
+# Format: .fdktheme v1
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Palette ───────────────────────────────────────────────────────────────────
+$bg0        = #12121800
+$bg1        = #1E1E2A
+$bg2        = #2A2A3E
+$bg3        = #181820
+
+$purple     = #8A63D2
+$purple_lo  = #8A63D2:3C
+$purple_mid = #8A63D2:B0
+
+$white      = #F0EEF8
+$muted      = #A09BB9
+$dim        = #5A587A
+
+# ── Global surfaces ───────────────────────────────────────────────────────────
+bg_window        = $bg0
+bg_widget        = $bg1
+bg_widget_hover  = $bg2
+bg_widget_active = #181824
+bg_input         = $bg3
+bg_input_focus   = $bg1
+bg_selection     = #8A63D2:50
+
+# ── Foreground ────────────────────────────────────────────────────────────────
+fg_primary   = $white
+fg_secondary = $muted
+fg_disabled  = $dim
+fg_on_accent = #FFFFFF
+
+# ── Accent ────────────────────────────────────────────────────────────────────
+accent        = $purple
+accent_hover  = #A07EE8
+accent_active = #6E45B8
+
+# ── Structure ─────────────────────────────────────────────────────────────────
+border         = $purple_lo
+border_focus   = $purple_mid
+separator      = #FFFFFF:14
+scrollbar_track = #1E1E2A
+scrollbar_thumb = #8A63D2:60
+
+# ── Toast strips ──────────────────────────────────────────────────────────────
+toast_info    = #507AFF
+toast_success = #48C878
+toast_warning = #F0B428
+toast_error   = #DC4646
+
+# ── Geometry ──────────────────────────────────────────────────────────────────
+radius_sm   = 6
+radius_md   = 12
+scrollbar_w = 8
+
+# ── Spacing ───────────────────────────────────────────────────────────────────
+gap_sm = 4
+gap_md = 8
+pad_sm = 8
+pad_md = 16
+
+# ── Typography ────────────────────────────────────────────────────────────────
+font_body  = DejaVu Sans:15
+font_label = DejaVu Sans:13
+font_mono  = DejaVu Sans Mono:14
+
+line_height = 22
+
+# ── Window shadow ─────────────────────────────────────────────────────────────
+window_shadow = 0 8 32 #00000099
+
+# ── Per-widget overrides ──────────────────────────────────────────────────────
+
+[button]
+bg        = $bg1
+bg_hover  = $bg2
+bg_active = #181824
+fg        = $white
+radius    = 8
+padding   = 8 18
+
+[button.accent]
+bg        = $purple
+bg_hover  = #A07EE8
+bg_active = #6E45B8
+fg        = #FFFFFF
+
+[button.danger]
+bg        = #6B1E1E
+bg_hover  = #8B2828
+bg_active = #5A1818
+fg        = #FFD0D0
+
+[button.ghost]
+bg        = #00000000
+bg_hover  = #8A63D2:18
+bg_active = #8A63D2:28
+fg        = $purple
+border    = $purple_lo
+
+[input]
+bg        = $bg3
+bg_hover  = $bg1
+fg        = $white
+border    = $purple_lo
+radius    = 4
+padding   = 6 8
+
+[toggle]
+bg        = $bg1
+bg_hover  = $bg2
+fg        = $white
+radius    = 8
+padding   = 6 14
+
+[toggle.on]
+bg        = $purple
+fg        = #FFFFFF
+
+[checkbox]
+bg        = $bg3
+border    = $purple_lo
+radius    = 4
+
+[slider]
+bg        = $bg2
+
+[progress]
+bg        = $bg2
+
+[dropdown]
+bg        = $bg1
+bg_hover  = $bg2
+border    = $purple_lo
+radius    = 6
+
+[badge]
+bg        = $purple
+fg        = #FFFFFF
+radius    = 99
+padding   = 3 8
+
+[tooltip]
+bg        = #1E1628:E6
+fg        = #DCCEF8
+border    = $purple_lo
+shadow    = 0 4 12 #00000080
+
+[tabs]
+bg        = $bg1
+border    = $purple_lo
+
+[menubar]
+bg        = $bg1
+border    = $purple_lo
+
+[textarea]
+bg        = $bg3
+fg        = $white
+border    = $purple_lo
+radius    = 4
+
+[scrollview]
+bg        = $bg0

@@ -1,0 +1,71 @@
+# Maintainer: FemBoyGamerTechGuy <faddeddreamproject@proton.me>
+# Package for FDK (Faded Dream Kit) — a lightweight GUI toolkit for Linux
+# No Red Hat ecosystem dependencies (no D-Bus, no GTK, no systemd)
+
+pkgname=fdk
+pkgver=0.1.0
+pkgrel=1
+pkgdesc="Faded Dream Kit — lightweight GUI toolkit for Linux (Wayland + X11, software + OpenGL rendering)"
+arch=('x86_64')
+url="https://github.com/FemBoyGamerTechGuy/FDK"
+license=('custom:FDK-Proprietary')
+
+# Runtime dependencies only — what a built FDK app actually needs at runtime
+depends=(
+    'freetype2'       # font rendering
+    'wayland'         # Wayland display protocol (runtime)
+    'libx11'          # X11 / XWayland support
+    'libxcursor'      # cursor theming on X11
+)
+
+# Build-time dependencies — needed to compile FDK, not needed at runtime
+makedepends=(
+    'cmake'
+    'ninja'
+    'wayland-protocols'   # protocol XML files for code generation
+    'libgl'               # OpenGL headers
+    'egl-headers'         # EGL headers
+    'wayland-egl'         # EGL/Wayland integration
+)
+
+# Optional: OpenGL backend (included by default if libGL is present)
+optdepends=(
+    'libgl: OpenGL render backend (faster than software rendering)'
+)
+
+# Source — change this to your actual release tarball URL once published
+# For local builds, use a local path or git source instead:
+#   source=("fdk-$pkgver.tar.gz::file:///path/to/fdk-v$pkgver.tar.gz")
+source=("fdk-$pkgver.tar.gz")
+sha256sums=('SKIP')   # replace with actual sha256sum of your tarball
+
+prepare() {
+    # The tarball extracts to fdk-v<version>/ — rename to fdk-<version>/
+    # so standard $srcdir/$pkgname-$pkgver paths work correctly
+    if [ -d "$srcdir/fdk-v$pkgver" ] && [ ! -d "$srcdir/$pkgname-$pkgver" ]; then
+        mv "$srcdir/fdk-v$pkgver" "$srcdir/$pkgname-$pkgver"
+    fi
+}
+
+build() {
+    cmake -B build -S "$pkgname-$pkgver" \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DFDK_BUILD_EXAMPLES=OFF \
+        -DFDK_BUILD_TESTS=OFF \
+        -DFDK_BUILD_TOOLS=ON \
+        -DFDK_BUILD_SHARED=ON \
+        -DFDK_BUILD_STATIC=ON \
+        -GNinja
+    ninja -C build
+}
+
+package() {
+    DESTDIR="$pkgdir" ninja -C build install
+
+    # Install the FDK Proprietary License and Sublicense
+    install -Dm644 "$pkgname-$pkgver/LICENSE" \
+        "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+    install -Dm644 "$pkgname-$pkgver/sublicense/SUBLICENSE" \
+        "$pkgdir/usr/share/licenses/$pkgname/SUBLICENSE"
+}

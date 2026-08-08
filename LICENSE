@@ -1,0 +1,293 @@
+FDK (Faded Dream Kit) Proprietary License
+Version 1.0, 2026
+Copyright (c) 2026 FemBoyGamerTechGuy. All rights reserved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DEFINITIONS
+
+"Software" refers to FDK (Faded Dream Kit), including all source code,
+binaries, assets, themes, icons, documentation, and associated files in
+this repository, in whole or in part, modified or unmodified.
+
+"Author" refers to FemBoyGamerTechGuy, the original creator and sole copyright
+holder of the Software, and any successor publicly designated by the Author
+in writing.
+
+"You" / "User" refers to any individual or entity other than the Author
+accessing, using, copying, modifying, or distributing the Software.
+
+"Personal Use" means use solely by a single natural person for their own
+private, non-commercial purposes on their own devices. It does not include
+use by or on behalf of any company, organisation, group, or legal entity.
+
+"Commercial Use" means any use intended for or resulting in commercial
+advantage, monetary compensation, or business benefit of any kind.
+
+"Fork" means any copy, clone, or derivative of the Software's repository or
+source code, stored locally, hosted privately, or published publicly.
+
+"Redistribution" means sharing, publishing, packaging, uploading, or otherwise
+making the Software or any derivative available to any third party in any form.
+
+"Permission Grant" means a written authorisation issued by the Author to a
+specific individual or entity permitting otherwise-restricted actions. Every
+Permission Grant is personal, non-transferable, and subject to the conditions
+stated within it and within this license.
+
+"Dependent Project" means any software project that links against, embeds,
+or otherwise uses FDK as a library component, whether at compile time or
+runtime.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+0. AUTHOR RIGHTS AND SOLE OWNERSHIP
+
+FDK (Faded Dream Kit) is the sole, exclusive, and absolute property of the
+Author. No individual, entity, corporation, contributor, or user of the
+Software holds any ownership, co-ownership, shared rights, or equity of any
+kind over FDK or any part of it. Nothing in this license, the sublicense/
+directory, or any Permission Grant creates, implies, or transfers any
+ownership interest in FDK to any party other than the Author.
+
+As the sole copyright holder, the Author retains full, perpetual, and
+unrestricted rights over the Software, including but not limited to:
+
+  a) Using the Software for any purpose without restriction.
+
+  b) Selling, licensing, sublicensing, or monetising the Software or any
+     derivative in any form, including closed-source or private builds.
+
+  c) Making any version of the Software private, restricted, or paid at
+     any time and without notice.
+
+  d) Changing the license of future versions at any time.
+
+  e) Issuing, modifying, or revoking Permission Grants at any time, for
+     any reason or no reason, with or without notice. Upon revocation all
+     rights granted to that party immediately and permanently cease.
+
+  f) Mandating at any time that any Fork or Dependent Project be made
+     open source, made private, taken down, or altered in any way the
+     Author specifies, regardless of prior compliance. The party must
+     comply within the timeframe specified, or immediately if none is given.
+
+  g) Transferring copyright and all associated rights to a designated
+     successor, who then holds all Author rights under this license in full.
+
+Nothing in this license restricts the Author's own use of the Software.
+All restrictions apply only to other users.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. LIBRARY USE AGREEMENT
+
+By using FDK as a library within any Dependent Project — including linking,
+embedding, or distributing FDK as part of a compiled application — the
+project owner automatically accepts and agrees to the following terms. No
+separate written agreement is required.
+
+  a) CO-OWNERSHIP OF DEPENDENT PROJECTS
+
+     FDK (Faded Dream Kit) is the sole and exclusive property of the Author.
+     No use of FDK — as a library, tool, or in any other capacity — grants
+     any individual or entity any ownership, co-ownership, or shared rights
+     over FDK or any part of it, in any form, under any circumstances.
+
+     By contrast, any Project Owner who uses FDK within a Dependent Project
+     grants the Author a non-exclusive, perpetual right of co-ownership and
+     binding authority over the Creative Direction of that Dependent Project,
+     as fully defined in the FDK Sublicense located in the sublicense/
+     directory of this repository. The Author's authority over Dependent
+     Projects includes the right to issue binding Directives that the Project
+     Owner must comply with. See the sublicense/ directory for the full terms.
+
+  b) SUBLICENSE REQUIREMENT
+
+     Any Dependent Project must include the FDK Sublicense found in the
+     sublicense/ directory of this repository. The Sublicense grants the
+     Author binding authority over the Creative Direction of any Dependent
+     Project, including the right to issue Directives that the Project Owner
+     must comply with. See the sublicense/ directory for the full terms.
+     Specifically:
+
+       — The SUBLICENSE file must be present in the project's repository
+         or in a subdirectory named sublicense/.
+
+       — The project's README or primary documentation must acknowledge
+         that the project uses FDK and is subject to the FDK Sublicense.
+
+       — If distributed as a package, the SUBLICENSE file must be included
+         with that distribution.
+
+     The FDK Sublicense is compatible with most software licenses including
+     MIT, Apache 2.0, GPL v2/v3, LGPL, BSD, MPL 2.0, and most proprietary
+     licenses. On matters covered by the Sublicense it always takes
+     precedence over the Dependent Project's own license. On all other
+     matters the Dependent Project's own license applies without restriction.
+
+  ┌─────────────────────────────────────────────────────────────────────────┐
+  │  CREATOR NOTE (informational, not legally binding)                      │
+  │                                                                         │
+  │  In practice I'm generally relaxed about this. If you build something   │
+  │  with FDK I'm unlikely to get involved in your project's direction      │
+  │  unless something actively misrepresents FDK or causes a real problem.  │
+  │  The co-ownership right exists to protect FDK's integrity and give me   │
+  │  a legal basis to act if something genuinely goes wrong — not to        │
+  │  micromanage what you build. The chance I'll ever exercise these rights  │
+  │  on a normal project is very small.                                     │
+  └─────────────────────────────────────────────────────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2. PERSONAL USE
+
+A single natural person may use, run, modify, and study the Software for
+Personal Use without a Permission Grant, provided that:
+
+  a) The Software is not distributed, shared, or made available to any
+     other person or entity in any form.
+
+  b) Any modifications remain strictly private.
+
+  c) All copyright notices, license files, and attribution are preserved.
+
+  d) Personal Use does not extend to use by or on behalf of any company,
+     organisation, group, or legal entity.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3. ATTRIBUTION
+
+Any use that involves displaying, distributing, forking, or building upon
+the Software must prominently credit the Author as follows:
+
+  "FDK (Faded Dream Kit) by FemBoyGamerTechGuy
+   https://github.com/FemBoyGamerTechGuy/FDK"
+
+This credit must appear in any documentation, README, about screen, public
+listing, package repository entry, or Fork associated with the Software.
+Removing, obscuring, or misrepresenting authorship is strictly prohibited.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4. FORKING
+
+Forking is prohibited without a Permission Grant. Where permitted:
+
+  a) The Fork must retain this license and the sublicense/ directory in full.
+  b) The Fork must credit the Author as specified in Section 3.
+  c) The Fork must not be relicensed.
+  d) Visibility (public or private) is determined solely by the Author.
+     Forks are private by default unless the Author states otherwise.
+  e) The Author may request takedown, privatisation, or deletion of any
+     Fork at any time, for any reason, without prior notice. The Fork
+     owner must comply immediately.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+5. REDISTRIBUTION
+
+Redistribution is prohibited without a Permission Grant. Where permitted:
+
+  a) The Software must originate from the official repository at
+     https://github.com/FemBoyGamerTechGuy/FDK unless the Permission
+     Grant states otherwise.
+  b) This license and the sublicense/ directory must be included in full.
+  c) The Author must be credited as specified in Section 3.
+  d) The Author may restrict or revoke redistribution permission at any
+     time. Upon revocation the party must immediately cease all
+     redistribution and where possible remove existing distributed copies.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+6. COMMERCIAL USE
+
+Commercial Use is prohibited without a Permission Grant. The following are
+explicitly prohibited without one: selling the Software or any derivative;
+bundling it with a commercial product or service; using it in a paid or
+SaaS offering; monetising it through ads, subscriptions, or any other model.
+
+Corporation use of FDK in any form — including accessing, using, or
+distributing the Software, or using it as a library in any Dependent Project
+— requires explicit written consent and a valid Permission Grant from the
+Author before any use begins. This applies regardless of whether the use is
+described as internal, non-commercial, or private.
+
+Individual developers who use FDK as a library to build Dependent Projects
+that generate revenue must contact the Author before monetising the Dependent
+Project. The terms governing that monetisation are set out in a Permission
+Grant and are further governed by the FDK Sublicense in the sublicense/
+directory of this repository.
+
+The following is permitted without a Permission Grant: installing the Software
+on behalf of a paying customer as a labour service only, provided the Software
+is installed unmodified, originates from the official repository, any fee
+covers labour only and not the Software itself, and the customer is informed
+of its source and authorship before installation is complete.
+
+All Permission Grants for Commercial Use are personal and non-transferable
+and may be revoked at any time without notice.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+7. LICENSE INTEGRITY
+
+This license and the sublicense/ directory may not be removed, replaced,
+altered, or relicensed by anyone other than the Author. No party may
+sublicense the Software or grant rights to third parties beyond what their
+own Permission Grant explicitly allows. Any attempt to circumvent this
+license is null and void. If copyright is transferred to a designated
+successor, that successor assumes all Author rights and obligations in full.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+8. ENFORCEMENT
+
+The Author may enforce this license by any lawful means including DMCA
+takedowns, civil legal action, cease and desist requests, revocation of
+Permission Grants, and requesting takedown or privatisation of any Fork
+or distribution. Violations are taken seriously. If you are unsure whether
+your use is permitted, contact the Author before proceeding.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+9. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. THE AUTHOR
+IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE
+USE OF OR CONNECTION WITH THE SOFTWARE.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10. SEVERABILITY
+
+If any provision of this license is found unenforceable, it shall be modified
+to the minimum extent necessary to make it enforceable, or severed if
+modification is not possible. The remainder continues in full force.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+11. GOVERNING LAW
+
+This license is governed by the laws of the jurisdiction in which the Author
+resides at the time of enforcement. If that jurisdiction cannot be determined,
+the laws of the European Union and applicable international copyright treaties
+apply.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+12. CONTACT
+
+All permission requests must be submitted in writing to:
+
+  faddeddreamproject@proton.me
+
+Requests through any other channel are not guaranteed to be seen or considered
+and do not constitute a valid permission request. All requests are granted
+solely at the Author's discretion. A response does not imply permission has
+been granted unless explicitly stated in writing by the Author.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+End of FDK (Faded Dream Kit) Proprietary License Version 1.0
